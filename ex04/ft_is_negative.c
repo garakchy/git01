@@ -6,7 +6,7 @@
 /*   By: tbaymyra <tbaymyra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/03 04:14:15 by tbaymyra          #+#    #+#             */
-/*   Updated: 2023/09/03 04:41:04 by tbaymyra         ###   ########.fr       */
+/*   Updated: 2023/09/18 17:06:24 by tbaymyra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,9 @@ void	ft_is_negative(int n)
 	{
 		write(1, "P", 1);
 	}
+}
+
+int	main(void)
+{
+	ft_is_negative(-2);
 }

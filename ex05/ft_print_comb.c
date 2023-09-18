@@ -6,13 +6,20 @@
 /*   By: tbaymyra <tbaymyra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 19:43:34 by tbaymyra          #+#    #+#             */
-/*   Updated: 2023/09/04 20:26:54 by tbaymyra         ###   ########.fr       */
+/*   Updated: 2023/09/18 17:08:38 by tbaymyra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
 void	print_nos(int a, int b, int c, char d);
+
+void	ft_print_comb(void);
+
+int	main(void)
+{
+	ft_print_comb();
+}
 
 void	ft_print_comb(void)
 {

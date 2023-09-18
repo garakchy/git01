@@ -6,7 +6,7 @@
 /*   By: tbaymyra <tbaymyra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/03 01:38:04 by tbaymyra          #+#    #+#             */
-/*   Updated: 2023/09/03 01:38:08 by tbaymyra         ###   ########.fr       */
+/*   Updated: 2023/09/18 16:58:29 by tbaymyra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,4 +22,9 @@ void	ft_print_alphabet(void)
 		write(1, &character, 1);
 		character++;
 	}
+}
+
+int	main(void)
+{
+	ft_print_alphabet();
 }
